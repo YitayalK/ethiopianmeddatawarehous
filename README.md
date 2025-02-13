@@ -46,7 +46,7 @@ pip install -r requirements.txt
   ```bash
   python scripts/data_cleaning.py
   ```
-- Cleaned data will be stored in `data/cleaned/` and loaded into a SQLite database.
+- Cleaned data will be stored in `data/cleaned/` and loaded into a PostgreSQL database.
 
 ### **3. Object Detection**
 - Detect objects in images using YOLO:
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### **Task 1: Data Scraping and Collection Pipeline**
 - Scrape data from Telegram channels using the `telethon` library.
-- Store raw data in CSV files and a SQLite database.
+- Store raw data in CSV files and a PostgreSQL database.
 
 ### **Task 2: Data Cleaning and Transformation Pipeline**
 - Clean the scraped data using `pandas`.
